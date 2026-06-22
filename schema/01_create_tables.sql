@@ -38,7 +38,6 @@ GO
 
 CREATE TABLE [dbo].[itmList](
 	[sku] [dbo].[u_char008] NOT NULL,
-	[brand] [dbo].[u_varchar050] NOT NULL,
 	[itmName] [dbo].[u_varchar200] NOT NULL,
 	[retailprice] [dbo].[u_decimal] NOT NULL,
 	[status] [dbo].[u_status] NOT NULL,
