@@ -32,7 +32,7 @@ CREATE TABLE [dbo].[slsOrderDetail](
 	[salesamount] [dbo].[u_decimal] NOT NULL,
 	[taxamount] [dbo].[u_decimal] NOT NULL,
 	[UPC] [dbo].[u_varchar020] NOT NULL,
-  CONSTRAINT [PK_slsOrderDetail] PRIMARY KEY CLUSTERED ([storecode] ASC, [sono] ASC, [나] ASC)
+  CONSTRAINT [PK_slsOrderDetail] PRIMARY KEY CLUSTERED ([storecode] ASC, [sono] ASC, [sku] ASC)
 );
 GO
 
