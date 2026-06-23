@@ -50,7 +50,6 @@ CREATE TABLE [dbo].[inventory](
 	[sku] [dbo].[u_char009] NOT NULL,
 	[transdate] [dbo].[u_char009] NOT NULL,
 	[transtype] [dbo].[u_char001] NOT NULL,
-	[qty] [dbo].[u_int] NOT NULL,
-  CONSTRAINT [PK_inventory] PRIMARY KEY CLUSTERED ([storecode] ASC, [sku] ASC)
+	[qty] [dbo].[u_int] NOT NULL
 );
 GO
