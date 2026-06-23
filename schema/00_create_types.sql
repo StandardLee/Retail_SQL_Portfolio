@@ -7,7 +7,7 @@ GO
 CREATE TYPE [dbo].[u_char003] FROM [char](3) NOT NULL
 GO
   
-CREATE TYPE [dbo].[u_char008] FROM [char](8) NOT NULL
+CREATE TYPE [dbo].[u_char009] FROM [char](9) NOT NULL
 GO
 
 -- varchar, not NULL
