@@ -12,9 +12,9 @@ GO
 
 CREATE TABLE [dbo].[slsOrder](
   [storecode] [dbo].[u_char003] NOT NULL,
-	[sono] [dbo].[u_char008] NOT NULL,
+	[sono] [dbo].[u_char009] NOT NULL,
 	[type] [dbo].[u_char001] NOT NULL,
-	[sodate] [dbo].[u_char008] NOT NULL,
+	[sodate] [dbo].[u_char009] NOT NULL,
 	[soamount] [dbo].[u_decimal] NOT NULL,
 	[taxamount] [dbo].[u_decimal] NOT NULL,
 	[totalamount] [dbo].[u_decimal] NOT NULL,
@@ -24,8 +24,8 @@ GO
 
 CREATE TABLE [dbo].[slsOrderDetail](
 	[storecode] [dbo].[u_char003] NOT NULL,
-	[sono] [dbo].[u_char008] NOT NULL,
-	[sku] [dbo].[u_char008] NOT NULL,
+	[sono] [dbo].[u_char009] NOT NULL,
+	[sku] [dbo].[u_char009] NOT NULL,
 	[itmName] [dbo].[u_varchar200] NOT NULL,
 	[price] [dbo].[u_decimal] NOT NULL,
 	[qty] [dbo].[u_int] NOT NULL,
@@ -37,7 +37,7 @@ CREATE TABLE [dbo].[slsOrderDetail](
 GO
 
 CREATE TABLE [dbo].[itmList](
-	[sku] [dbo].[u_char008] NOT NULL,
+	[sku] [dbo].[u_char009] NOT NULL,
 	[itmName] [dbo].[u_varchar200] NOT NULL,
 	[retailprice] [dbo].[u_decimal] NOT NULL,
 	[status] [dbo].[u_status] NOT NULL,
@@ -47,8 +47,8 @@ GO
 
 CREATE TABLE [dbo].[inventory](
  	[storecode] [dbo].[u_char003] NOT NULL,
-	[sku] [dbo].[u_char008] NOT NULL,
-	[transdate] [dbo].[u_char008] NOT NULL,
+	[sku] [dbo].[u_char009] NOT NULL,
+	[transdate] [dbo].[u_char009] NOT NULL,
 	[transtype] [dbo].[u_char001] NOT NULL,
 	[qty] [dbo].[u_int] NOT NULL,
   CONSTRAINT [PK_inventory] PRIMARY KEY CLUSTERED ([storecode] ASC, [sku] ASC)
