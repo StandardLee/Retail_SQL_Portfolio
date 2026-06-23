@@ -1,31 +1,31 @@
 storecode,storetype,storename
-001,R,Rockville Beauty
-002,R,College Park Beauty
-003,R,Baltimore Downtown Beauty
-004,R,Silver Spring Beauty
-005,R,Tysons Corner Beauty
-006,R,Alexandria Beauty
-007,R,Bethesda Beauty
-008,R,Arlington Beauty
-009,R,Laurel Beauty
-010,R,Elkridge Beauty
-011,R,Columbia Beauty
-012,R,Gaithersburg Beauty
-013,R,Germantown Beauty
-014,R,Hyattsville Beauty
-015,R,Greenbelt Beauty
-016,O,Online Store East
-017,O,Online Store West
-018,O,Online Store Central
-019,M,Mall Kiosk Pentagon City
-020,M,Mall Kiosk Montgomery
-021,M,Mall Kiosk Wheaton
-022,M,Mall Kiosk Springfield
-023,M,Mall Kiosk Annapolis
-024,M,Mall Kiosk White Marsh
-025,R,Frederick Beauty
-026,R,Hanover Beauty
-027,R,Bowie Beauty
-028,R,Owings Mills Beauty
-029,R,Laurel Town Center Beauty
-030,R,College Park Campus Beauty
+000,H,HQ
+001,S,store001
+002,S,store002
+003,S,store003
+004,S,store004
+005,S,store005
+006,S,store006
+007,S,store007
+008,S,store008
+009,S,store009
+010,S,store010
+011,S,store011
+012,S,store012
+013,S,store013
+014,S,store014
+015,S,store015
+016,S,store016
+017,S,store017
+018,S,store018
+019,S,store019
+020,S,store020
+021,S,store021
+022,S,store022
+023,S,store023
+024,S,store024
+025,S,store025
+026,S,store026
+027,S,store027
+028,S,store028
+029,S,store029
